@@ -8,10 +8,10 @@ BallInMatrix is entry point for solution.
 Refer below code snippet as example
 ```
         BallInMatrix matrix = new BallInMatrix();
-        String[][] input1 = {
+        String[][] input = {
                 {"", "", "\\"},
                 {"\\", "", ""},
                 {"\\", "", "/"}};
-        Position exitPos1 = matrix.moveTheBall(input1);
-        System.out.println("Exit1:" + exitPos1.row + "," + exitPos1.col);
+        Position exitPos = matrix.moveTheBall(input);
+        System.out.println("Exit:" + exitPos.row + "," + exitPos.col);
 ```
